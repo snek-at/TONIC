@@ -66,14 +66,14 @@ let test = "test";
 
 /**
  * This is a multiline header comment which contains single line JSDoc tags.
- * @description And that's why you should never add add dots here
+ * @description And that's why you should never add dots here
  * @description Or here
  */
  
  /**
   * This is a multiline header comment which contains multiline JSDoc tags.
   * @description And that's why you should 
-  *              add add dots here.
+  *              add dots here.
   * @description Or
   *              here.
   */
