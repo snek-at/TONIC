@@ -40,14 +40,14 @@ let test = "test";
 /**
  * This is a multiline header comment.
  */
-
+ 
 /**
  * This is a multiline header comment.
  * It has multiple sentences.
  */
  
  /*
-  * This is a multiline comment.
+  * This is a multiline comment
   */
  
  /*
@@ -63,6 +63,20 @@ let test = "test";
 
 // This is a single line comment preffered to use in Javascript. 
 // It has multiple sentences.
+
+/**
+ * This is a multiline header comment which contains single line JSDoc tags.
+ * @description And that's why you should never add add dots here
+ * @description Or here
+ */
+ 
+ /**
+  * This is a multiline header comment which contains multiline JSDoc tags.
+  * @description And that's why you should 
+  *              add add dots here.
+  * @description Or
+  *              here.
+  */
 ```
 
 - Use regions if you have more than 3 distinct areas in your file.
