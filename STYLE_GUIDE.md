@@ -104,14 +104,16 @@ class Foo {
 
 - Anchors can be used to easily find code snippets inside the code
 ```typescript
-//#PACKAGE snek-client
-//## npm install snek-client
+//#PACKAGE "package-name"
+//## npm install "package-name"@VERSION
+// Description
 ```
 - The default anchors are:
     * #PACKAGE
     * #DEBUG
     * #ENTRYPOINT
     * #ERROR
+    * #LEGACY
 
 
 - A class should be structued using static, abstract fields & methods
