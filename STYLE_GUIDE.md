@@ -105,7 +105,7 @@ class Foo {
 - Anchors can be used to easily find code snippets inside the code
 ```typescript
 //#PACKAGE "package-name"
-//## nmp install "package-name"@VERSION
+//## npm install "package-name"@VERSION
 // Description
 ```
 - The default anchors are:
