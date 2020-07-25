@@ -2,12 +2,14 @@
 We generally follow the [ESLint](https://eslint.org/docs/rule) ES6 rules.
 This code of conduct will outline some of the most important rules and showcase some of the use-cases.
 
+- **HTML** and **CSS** should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
+- **Python** should conform to the [Code Guide](https://black.readthedocs.io/en/stable/the_black_code_style.html), maintained by [PSF](https://github.com/psf/black).
+- **Go** should conform to the [Code Guide](https://golang.org/doc/effective_go.html), maintained by [GoLang](https://github.com/golang)
+
 It is recommended to use Visual Studio Code with all recommended Extensions when working on code
 with the agency or under the agency’s supervision. Use the built-in code quality
 improvement tool `Prettier` as often as possible. It does not only help you to keep
 focus and be more efficient, it also improves the code quality tremendously
-
-All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
 
 The following rules are one of the most important.
 - Try to keep the maximum line length below `80`. The maximum line length is `120`.
